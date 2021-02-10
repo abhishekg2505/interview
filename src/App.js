@@ -1,6 +1,6 @@
 import React from "react";
 
-import Filter from "./filter";
+// import Filter from "./filter";
 import Header from "./header";
 import Carousel from "./carousel";
 import Content from "./content";
@@ -18,7 +18,7 @@ const App = (props) => {
       <div className="container-fluid contentAreaWrap">
         <div className="container">
           <div className="row">
-            <Filter />
+            {/* <Filter /> */}
             <Content />
           </div>
         </div>
